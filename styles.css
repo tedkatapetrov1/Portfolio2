@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+.name {
+    color: white;
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navigation {
+    display: inline-block;
+    margin-left: 280px;
+}
+
+.social-networks {
+    display: inline-block;
+    margin-left: 220px;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+
+nav {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    padding: 8px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width .5s;
+}
+
+a:hover:before {
+    width: 100%;
+}
