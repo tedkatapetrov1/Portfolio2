@@ -123,6 +123,42 @@ a:hover {
     font-weight: 500;
 }
 
+/* portfolio-section */
+
+.portfolio-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.portfolio-section .port-title {
+    position: relative;
+    padding-top: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.portfolio-section .port-role,
+.portfolio-section .port-job{
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a5a7a7;
+}
+
+.portfolio-section .port-desc{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
 /* footer */
 
 .footer {
