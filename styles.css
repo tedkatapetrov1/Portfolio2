@@ -35,6 +35,15 @@ a:hover {
     position: relative;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler:focus {
+color: #000;
+box-shadow: 0 0 0 2px;
+}
+
 .navbar ul li {
     position: relative;
     margin-left: 2.5rem;
