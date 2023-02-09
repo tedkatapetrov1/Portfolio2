@@ -97,6 +97,24 @@ box-shadow: 0 0 0 2px;
     color: #a5a7a7;
 }
 
+/* about section */
+
+.about-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title{
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
 /* footer */
 
 .footer {
