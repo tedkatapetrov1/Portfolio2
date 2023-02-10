@@ -29,6 +29,10 @@ a:hover {
     color: #0dcaf0 !important;
 }
 
+p{
+    color: #999;
+}
+
 /* navbar */
 
 .navbar {
