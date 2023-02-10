@@ -72,7 +72,7 @@ a:hover {
     color: #0dcaf0 !important;
 }
 
-p{
+p {
     color: #999;
 }
 
@@ -259,44 +259,3 @@ p{
     letter-spacing: 0.5rem;
     color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-a:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 3px;
-    background-color: white;
-    transition: width .5s;
-}
-
-a:hover:before {
-    width: 100%;
-} */
