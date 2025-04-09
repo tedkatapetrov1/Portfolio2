@@ -259,3 +259,28 @@ p {
     letter-spacing: 0.5rem;
     color: #000;
 }
+
+
+
+
+
+
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none; /* Първоначално бутонът е скрит */
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  
