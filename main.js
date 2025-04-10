@@ -1,6 +1,5 @@
 // Показва/скрива бутона при скрол
-window.onscroll = function() {
-    var button = document.getElementById("scrollToTopBtn");
+function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       button.style.display = "block"; // Показва бутона
     } else {
@@ -9,7 +8,7 @@ window.onscroll = function() {
   };
   
   // Скролира към горе при натискане на бутона
-  function scrollToTop() {
+  function topFuncion() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
