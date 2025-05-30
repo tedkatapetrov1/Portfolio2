@@ -45,4 +45,4 @@ A basic JavaScript app that increments a number every time a button is clicked.
 
 2. 📝 To-Do Shopping List
 A small to-do list app for shopping. Products can be added and checked off, but are not saved after refreshing the page. Item deletion will be added in a future version.
-[🔗 Try it here](https://tedkatapetrov1.github.io/Portfolio2/Projects/Project2-ToDoList/index.html)
+<a href="https://tedkatapetrov1.github.io/Portfolio2/Projects/Project2-ToDoList/index.html" target="_blank">🔗 Try it here</a>
