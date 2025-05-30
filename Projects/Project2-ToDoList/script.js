@@ -24,3 +24,9 @@ addBtn.addEventListener('click', () => {
     itemInput.value = '';
   }
 });
+
+itemInput.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    addBtn.click();
+  }
+});
