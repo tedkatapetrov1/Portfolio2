@@ -1,9 +1,10 @@
 const addBtn = document.getElementById('addBtn');
 const itemInput = document.getElementById('itemInput');
-const shoppingList = document.getElementById('shoppingList');
+const shoppingList = document.getElementById('categorySelect');
 
 addBtn.addEventListener('click', () => {
   const itemText = itemInput.value.trim();
+  const category = categorySelect.value;
 
   if (itemText !== '') {
     const li = document.createElement('li');
@@ -19,11 +20,14 @@ addBtn.addEventListener('click', () => {
 
     li.appendChild(checkbox);
     li.appendChild(span);
-    shoppingList.appendChild(li);
+    
+    const categoryList = document.getElementById(category);
+    categoryList.appendChild(li)
 
     itemInput.value = '';
   }
 });
+
 
 itemInput.addEventListener('keyup', (event) => {
   if (event.key === 'Enter') {
