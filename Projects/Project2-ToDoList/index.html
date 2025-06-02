@@ -13,8 +13,30 @@
     <div class="container">
         <h2>My Shopping List</h2>
         <input type="text" id="itemInput" placeholder="Write a product...">
+        <select id="categorySelect">
+            <option value="" disabled selected>Choose a category</option>
+            <option value="fruits">Fruits</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="dairy">Dairy</option>
+            <option value="meat">Meat</option>
+            <option value="drinks">Drinks</option>
+            <option value="other">Other</option>
+          </select>        
         <button id="addBtn">Add your product</button>
-        <ul id="shoppingList"></ul>
+        <div id="CategoryLists">
+            <h3>Fruits</h3>
+            <ul id="fruits"></ul>
+            <h3>Vegetables</h3>
+            <ul id="vegetables"></ul>
+            <h3>Dairy</h3>
+            <ul id="dairy"></ul>
+            <h3>Meat</h3>
+            <ul id="meat"></ul>
+            <h3>Drinks</h3>
+            <ul id="drinks"></ul>
+            <h3>Other</h3>
+            <ul id="other"></ul>
+        </div>
     </div>
 
     <script src="script.js"></script>
