@@ -280,6 +280,9 @@ p {
 }
 
 .nav-link.active {
-    border-bottom: 3px solid black;
-    font-weight: bold;
+    background-color: black;
+    color: white !important;
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
   }
