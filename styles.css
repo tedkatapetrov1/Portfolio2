@@ -260,21 +260,6 @@ p {
     color: #000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #myBtn {
   display: none;
   position: fixed;
@@ -293,3 +278,9 @@ p {
 #myBtn:hover {
   background-color: #555;
 }
+
+.nav-link.active {
+    border-bottom: 3px solid #28a745;
+    font-weight: bold;
+    color: #28a745;
+  }
