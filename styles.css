@@ -280,7 +280,6 @@ p {
 }
 
 .nav-link.active {
-    border-bottom: 3px solid #28a745;
+    border-bottom: 3px solid black;
     font-weight: bold;
-    color: #28a745;
   }
