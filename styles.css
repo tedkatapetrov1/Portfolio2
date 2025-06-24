@@ -286,3 +286,59 @@ p {
     border-radius: 20px;
     transition: background-color 0.3s ease;
   }
+
+  .hobbies-section {
+    padding: 2rem;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  
+  .hobby-card {
+    perspective: 1000px;
+    position: relative;
+    width: 100%;
+    height: 260px;
+  }
+  
+  .hobby-card .card-front,
+  .hobby-card .card-back {
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .hobby-card {
+    position: relative;
+    width: 100%;
+    height: 220px;
+  }
+  
+  .card-front {
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+  }
+  
+  .hobby-card:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+  
+  .hobby-card:hover .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  .hobby-card i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #4a90e2;
+  }
