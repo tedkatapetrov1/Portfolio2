@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This project shows my background, skills, experience, and achievements in IT support and technology.
 
-🔗 [Live Demo](https://tedkatapetrov1.github.io/Portfolio2/)
+🔗 [Live Demo](https://tedkatapetrov1.github.io/Portfolio2/)_(Tip: Ctrl+Click on the "Try it here" to open in new tab)_
 
 ## 📌 About
 
