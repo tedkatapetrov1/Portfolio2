@@ -15,8 +15,9 @@ It features multiple pages including:
 - 💻 Experience  
 - 🎓 Education  
 - 📄 Certificates  
+- 🎯 Hobbies  
+- 💡 Projects  
 - ✉️ Contact
-- 💡 Projects
 
 ## 🚀 Features
 
