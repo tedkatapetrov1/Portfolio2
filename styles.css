@@ -293,6 +293,11 @@ p {
     text-align: center;
   }
   
+  .container {
+    margin-top: 20px;
+  }
+
+
   .hobby-card {
     perspective: 1000px;
     position: relative;
