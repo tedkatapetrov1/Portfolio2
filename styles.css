@@ -135,6 +135,12 @@ p {
     font-weight: 500;
 }
 
+
+.certificates:hover p {
+    color: black;
+    font-weight: 500;
+}
+
 .banner-section .banner-btn {
     position: relative;
     font-size: 16px;
@@ -261,22 +267,22 @@ p {
 }
 
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  background-color: #333;
-  color: white;
-  padding: 12px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 18px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+    background-color: #555;
 }
 
 .nav-link.active {
@@ -285,65 +291,65 @@ p {
     padding: 6px 14px;
     border-radius: 20px;
     transition: background-color 0.3s ease;
-  }
+}
 
-  .hobbies-section {
+.hobbies-section {
     padding: 2rem;
     background: #f8f9fa;
     text-align: center;
-  }
-  
-  .container {
+}
+
+.container {
     margin-top: 20px;
-  }
+}
 
 
-  .hobby-card {
+.hobby-card {
     perspective: 1000px;
     position: relative;
     width: 100%;
     height: 260px;
-  }
-  
-  .hobby-card .card-front,
-  .hobby-card .card-back {
+}
+
+.hobby-card .card-front,
+.hobby-card .card-back {
     background: white;
     border-radius: 15px;
     padding: 1rem;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.6s;
     transform-style: preserve-3d;
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-  }
-  
-  .hobby-card {
+}
+
+.hobby-card {
     position: relative;
     width: 100%;
     height: 220px;
-  }
-  
-  .card-front {
+}
+
+.card-front {
     z-index: 2;
     transform: rotateY(0deg);
-  }
-  
-  .card-back {
+}
+
+.card-back {
     transform: rotateY(180deg);
-  }
-  
-  .hobby-card:hover .card-front {
+}
+
+.hobby-card:hover .card-front {
     transform: rotateY(-180deg);
-  }
-  
-  .hobby-card:hover .card-back {
+}
+
+.hobby-card:hover .card-back {
     transform: rotateY(0deg);
-  }
-  
-  .hobby-card i {
+}
+
+.hobby-card i {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     color: #4a90e2;
-  }
+}
