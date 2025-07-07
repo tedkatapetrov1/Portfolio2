@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🎓 Knowledge Is Power – Show Yours!</h1>
+
+    <div id="start-container">
+      <h2>Choose a category:</h2>
+      <div id="category-buttons" class="btn-grid"></div>
+    </div>
+    <button id="start-btn" class="CenterButton">Start the quiz</button>
+
+    <div id="question-container" class="hide">
+      
+      <div id="question">question</div>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <div id="explanation" class="explanation hide"></div>
+    </div>
+
+    <div id="question-number" class="question-number"></div>
+    <button id="next-btn" class="next-btn hide">Next question</button>
+
+    <div id="result-container" class="hide">
+      <h2>Result: <span id="score"></span> of <span id="total"></span></h2>
+      <div id="feedback" class="feedback-message"></div>
+      <button id="restart-btn" class="CenterButton">Play again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
