@@ -147,13 +147,13 @@ p {
 
 /* about section */
 
-.about-section {
+.universal-section {
     position: relative;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-.about-section .about-title {
+.universal-section .universal-title {
     position: relative;
     margin: 0;
     padding-top: 3rem;
@@ -165,9 +165,9 @@ p {
     color: #000;
 }
 
-.about-section .about-desc {
+.universal-section .universal-desc {
     position: relative;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
 }
 
