@@ -110,39 +110,8 @@ p {
     color: #999;
 }
 
-/* banner content */
-
-.banner-section {
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-.banner-section .banner-title {
-    position: relative;
-    margin: 0;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #000;
-}
-
-.banner-section .banner-desc {
-    position: relative;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.banner-section .banner-btn {
-    position: relative;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 2px;
+.uppercase-text {
     text-transform: uppercase;
-    color: #a5a7a7;
 }
 
 /* universal section */
@@ -166,7 +135,7 @@ p {
 
 /* portfolio-section */
 
-.universal-role,.universal-time {
+.universal-role, .universal-time {
     position: relative;
     margin-top: 6px;
     font-size: 16px;
