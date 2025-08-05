@@ -147,16 +147,9 @@ p {
 
 /* universal section */
 
-.universal-section {
-    position: relative;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
 .universal-section .universal-title {
     position: relative;
     margin: 0;
-    padding-top: 3rem;
     padding-bottom: 2rem;
     font-family: "Poppins", sans-serif;
     font-size: 40px;
