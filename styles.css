@@ -140,7 +140,12 @@ p {
     text-transform: uppercase;
     color: #a5a7a7;
 }
-
+/* first sentence in experience page "so, let's see what ...." */
+.experience-title{
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 /* contact */
 
 .contact-section {
