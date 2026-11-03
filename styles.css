@@ -244,11 +244,11 @@ p {
     height: 260px;
 }
 
+/* how both sides look below */
+
 .hobby-card .card-front,
 .hobby-card .card-back {
     background: white;
-    border-radius: 15px;
-    padding: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -258,14 +258,29 @@ p {
     backface-visibility: hidden;
 }
 
+/* how front side look below */
+
 .card-front {
     z-index: 2;
     transform: rotateY(0deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+/* how back side look below */
 
 .card-back {
     transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
 }
+
+/* what is going on when we hover */
 
 .hobby-card:hover .card-front {
     transform: rotateY(-180deg);
